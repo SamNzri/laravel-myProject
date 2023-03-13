@@ -1,4 +1,4 @@
-@extends('general')
+@extends('master')
 @section('title', 'Interests')
 @section('content')
 

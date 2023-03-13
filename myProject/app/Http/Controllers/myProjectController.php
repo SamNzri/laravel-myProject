@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class myProjectController extends Controller
 {
     public function index() {
-        return view('home');
+        return view('home'); //about page is my home page 
     }
     public function experience() {
         return view('experience');

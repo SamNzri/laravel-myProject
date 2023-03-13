@@ -24,8 +24,6 @@ Route::get('/experience', [myProjectController::class, 'experience']);
 Route::get('/education', [myProjectController::class, 'education']);
 Route::get('/skills', [myProjectController::class, 'skills']);
 Route::get('/interests', [myProjectController::class, 'interests']);
-
-
 Route::get('/contact', [myProjectController::class, 'contact']);
 Route::post('/contact', [myProjectController::class, 'formContact']);
 
